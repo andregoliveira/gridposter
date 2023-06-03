@@ -51,15 +51,15 @@ function draw() {
         if (pixDist > 30) {
           noStroke();
           if (r2 > g2 && r2 > b2 && r2 > 127) {
-            fill(255, 140, 0); 
+            fill(255, 138, 0); 
           } else if (g2 > r2 && g2 > b2 && g2 > 127) {
-            fill(0, 255, 0); 
+            fill(58, 232, 96); 
           } else if (b2 > r2 && b2 > g2 && b2 > 127) {
-            fill(0, 0, 255);
+            fill(54, 98, 245);
           } else if (r2 > g2 && r2 > b2 && r2 <= 127) {
-            fill(255, 105, 180); 
+            fill(253, 72, 235); 
           } else if (g2 > r2 && g2 > b2 && g2 <= 127) {
-            fill(255, 255, 0); 
+            fill(249, 219, 60); 
           } else {
             fill(255); 
           }
